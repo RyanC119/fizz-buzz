@@ -1,4 +1,12 @@
 // 1. Ask the user to provide a number
+
+let userNumber = prompt('Enter a number to FizzBuzz:');
+
+userNumber = Math.round(parseInt(userNumber));
+
+console.log(userNumber);
+console.log(typeof userNumber);
+
 // 2. For each number up to the number the user has provided
 // 3. If the number is only divisible by 3, print _Fizz_ to the console
 // 4. If the number is only divisible by 5, print _Buzz_ to the console
